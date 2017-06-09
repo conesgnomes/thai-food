@@ -1,4 +1,9 @@
-.flavor-card {
-  @include flavor-card(80px);
-  margin-top: 15px;
+.flavors {
+  .divider{
+    @include section-divider($main-text);    
+  }
+  .flavor-card {
+    @include flavor-card(80px);
+    margin-top: 15px;
+  }
 }

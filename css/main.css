@@ -423,27 +423,38 @@ body {
 }
 .header p {
   font-weight: 300;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-style: italic;
   font-size: .6em;
   letter-spacing: .1em;
 }
 .header h1 {
   font-family: 'Trirong', serif;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: .05em;
   font-size: 3em;
+  text-transform: uppercase;
+}
+
+.flavors h3 {
+  text-align: center;
 }
 
 .dishes {
   color: #E5E5E5;
 }
 .dishes h3 {
-  font-family: 'Trirong', serif;
-  font-weight: 300;
-  text-transform: uppercase;
+  text-align: center;
 }
 .dishes p {
+  font-size: .8em;
   font-weight: 200;
+  font-family: 'Trirong', serif;
+}
+
+.about p {
+  font-weight: 300;
+  font-size: .9em;
 }
 
 * {
@@ -451,17 +462,23 @@ body {
   padding: 0;
 }
 
-.body::after {
+.flavors::after {
   clear: both;
   content: "";
   display: block;
 }
-.body .flavor-card {
+.flavors .flavor-card {
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px;
 }
-.body .dish-card {
+
+.about::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.about .about-text {
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px;
@@ -499,18 +516,31 @@ body {
   margin-bottom: -8px;
 }
 
-.flavor-card {
+.flavors .divider hr {
+  border-top: 0.5px solid #3E3E3E;
+  width: 40%;
+  margin: -20px auto 0 auto;
+}
+.flavors .divider h3 {
+  font-family: 'Trirong', serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #3E3E3E;
+  font-size: 1.5em;
+  padding: 20px 0;
+}
+.flavors .flavor-card {
   text-align: center;
   margin-top: 15px;
 }
-.flavor-card img {
+.flavors .flavor-card img {
   height: 80px;
 }
-.flavor-card h3 {
+.flavors .flavor-card h3 {
   margin: 15px 0;
   font-family: 'Trirong', serif;
 }
-.flavor-card p {
+.flavors .flavor-card p {
   padding: 20px;
   font-weight: 300;
   font-size: .9em;
@@ -525,18 +555,51 @@ body {
   width: 40%;
   margin: -20px auto 0 auto;
 }
+.dishes h3 {
+  font-family: 'Trirong', serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #E5E5E5;
+  font-size: 1.5em;
+  padding: 20px 0;
+}
 .dishes p {
   margin: 15px 0;
 }
 .dishes > p {
   display: none;
 }
-.dishes h3 {
+.dishes .dish-card img {
+  width: 100%;
+}
+
+.about {
+  background-image: url("../img/thailand.png");
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: 10% -5%;
+}
+.about hr {
+  border-top: 0.5px solid #3E3E3E;
+  width: 40%;
+  margin: -20px auto 0 auto;
+}
+.about h3 {
+  font-family: 'Trirong', serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #3E3E3E;
   font-size: 1.5em;
   padding: 20px 0;
 }
-.dishes .dish-card img {
-  width: 100%;
+.about img {
+  display: none;
+}
+.about button {
+  border: solid 2px #3E3E3E;
+  background: transparent;
+  padding: 3px 5px;
+  margin: 20px 0;
 }
 
 /*# sourceMappingURL=main.css.map */

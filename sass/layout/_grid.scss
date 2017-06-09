@@ -1,9 +1,12 @@
-.body {
+.flavors {
   @include grid-container;
   .flavor-card {
     @include grid-column(12);
   }
-  .dish-card {
-    @include grid-column(12);
-  }
 }
+  .about {
+    @include grid-container;
+    .about-text{
+      @include grid-column(12);      
+    }
+  }
