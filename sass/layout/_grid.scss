@@ -1,6 +1,9 @@
-.flavors {
+.body {
   @include grid-container;
   .flavor-card {
+    @include grid-column(12);
+  }
+  .dish-card {
     @include grid-column(12);
   }
 }

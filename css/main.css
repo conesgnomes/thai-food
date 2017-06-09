@@ -412,10 +412,11 @@ template {
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: #3E3E3E;
 }
 
 .header {
-  color: white;
+  color: #E5E5E5;
 }
 .header i {
   font-size: 2em;
@@ -433,17 +434,34 @@ body {
   font-size: 3em;
 }
 
+.dishes {
+  color: #E5E5E5;
+}
+.dishes h3 {
+  font-family: 'Trirong', serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.dishes p {
+  font-weight: 200;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
-.flavors::after {
+.body::after {
   clear: both;
   content: "";
   display: block;
 }
-.flavors .flavor-card {
+.body .flavor-card {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+}
+.body .dish-card {
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px;
@@ -489,12 +507,36 @@ body {
   height: 80px;
 }
 .flavor-card h3 {
-  margin: 20px 0;
+  margin: 15px 0;
   font-family: 'Trirong', serif;
 }
 .flavor-card p {
   padding: 20px;
   font-weight: 300;
+  font-size: .9em;
+}
+
+.dishes {
+  background-image: url("../img/zig-zag-wool.png");
+  text-align: center;
+}
+.dishes hr {
+  border-top: 0.5px solid #E5E5E5;
+  width: 40%;
+  margin: -20px auto 0 auto;
+}
+.dishes p {
+  margin: 15px 0;
+}
+.dishes > p {
+  display: none;
+}
+.dishes h3 {
+  font-size: 1.5em;
+  padding: 20px 0;
+}
+.dishes .dish-card img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

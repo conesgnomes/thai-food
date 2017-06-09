@@ -1,0 +1,24 @@
+.dishes {
+  background-image: url("../img/zig-zag-wool.png");
+  text-align: center;
+  hr {
+    border-top: .5px solid $white-text;
+    width: 40%;
+    margin: -20px auto 0 auto;
+  }
+  p {
+    margin: 15px 0;
+  }
+  & > p {
+    display: none;
+  }
+  h3 {
+    font-size: 1.5em;
+    padding: 20px 0;
+  }
+  .dish-card {
+    img {
+      width: 100%;
+    }
+  }
+}

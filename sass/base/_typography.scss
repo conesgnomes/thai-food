@@ -1,9 +1,10 @@
 body {
   font-family: 'Roboto', sans-serif;
+  color: $main-text;
 }
 
 .header {
-  color: white;
+  color: $white-text;
   i {
     font-size: 2em;
   }
@@ -18,5 +19,17 @@ body {
     font-weight: 400;
     letter-spacing: .05em;
     font-size: 3em;
+  }
+}
+
+.dishes {
+  color: $white-text;
+  h3 {
+    font-family: 'Trirong', serif;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  p {
+    font-weight: 200;
   }
 }
