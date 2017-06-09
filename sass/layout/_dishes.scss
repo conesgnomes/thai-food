@@ -5,7 +5,7 @@
   h4 {
     margin: 15px 0;
   }
-  & > p {
+  & > h4 {
     display: none;
   }
   .dish-card {
@@ -18,6 +18,9 @@
     }
   }
   @media #{$breakpoint-medium} {
+    .divider {
+      padding-top: 20px;
+    }
     .dish-card {
       padding-bottom: 20px;
       h4 {
@@ -28,8 +31,9 @@
         height: 100%;
       }
     }
-    & > p {
-      display: inline;
+    & > h4 {
+      padding: 40px 0;
+      display: block;
     }
   }
 }

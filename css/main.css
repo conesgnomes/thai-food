@@ -504,17 +504,28 @@ body {
     margin-left: 20px;
   }
 }
-.dishes
 .about::after {
   clear: both;
   content: "";
   display: block;
 }
-.dishes
 .about .about-text {
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px;
+}
+@media only screen and (min-width: 600px) {
+  .about .about-text {
+    width: calc(66.66667% - 33.33333px);
+    float: left;
+    margin-left: 20px;
+  }
+}
+.about .train-img {
+  width: calc(66.66667% - 33.33333px);
+  float: left;
+  margin-left: 20px;
+  margin-left: calc(33.33333% - 26.66667px + 40px);
 }
 
 .ingredients::after {
@@ -605,6 +616,14 @@ body {
   font-weight: 300;
   font-size: .9em;
 }
+@media only screen and (min-width: 600px) {
+  .flavors {
+    padding: 40px 0;
+  }
+  .flavors .flavor-card {
+    padding-top: 40px;
+  }
+}
 
 .dishes {
   text-align: center;
@@ -626,7 +645,7 @@ body {
 .dishes h4 {
   margin: 15px 0;
 }
-.dishes > p {
+.dishes > h4 {
   display: none;
 }
 .dishes .dish-card .dish-img {
@@ -637,6 +656,9 @@ body {
   width: 100%;
 }
 @media only screen and (min-width: 600px) {
+  .dishes .divider {
+    padding-top: 20px;
+  }
   .dishes .dish-card {
     padding-bottom: 20px;
   }
@@ -647,8 +669,9 @@ body {
     object-fit: cover;
     height: 100%;
   }
-  .dishes > p {
-    display: inline;
+  .dishes > h4 {
+    padding: 40px 0;
+    display: block;
   }
 }
 
@@ -672,7 +695,7 @@ body {
   font-size: 1.5em;
   padding: 20px 0;
 }
-.about img {
+.about .train-img {
   display: none;
 }
 .about button {
@@ -680,6 +703,20 @@ body {
   background: transparent;
   padding: 3px 5px;
   margin: 20px 0;
+}
+@media only screen and (min-width: 600px) {
+  .about {
+    background-size: 35%;
+    background-position: 5% 25%;
+  }
+  .about .train-img {
+    height: 250px;
+    display: block;
+    overflow: hidden;
+  }
+  .about .train-img img {
+    width: 100%;
+  }
 }
 
 .ingredients {

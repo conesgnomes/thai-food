@@ -1,9 +1,15 @@
 .flavors {
   .divider{
-    @include section-divider($main-text);    
+    @include section-divider($main-text);
   }
   .flavor-card {
     @include flavor-card(80px);
     margin-top: 15px;
+  }
+  @media #{$breakpoint-medium} {
+    padding: 40px 0;
+    .flavor-card {
+      padding-top: 40px;
+    }
   }
 }

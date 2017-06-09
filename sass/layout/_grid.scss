@@ -16,14 +16,20 @@
     }
   }
 }
-.dishes
 
-  .about {
-    @include grid-container;
-    .about-text{
-      @include grid-column(12);
+.about {
+  @include grid-container;
+  .about-text{
+    @include grid-column(12);
+    @media #{$breakpoint-medium} {
+      @include grid-column(8);
     }
   }
+  .train-img {
+    @include grid-column(8);
+    @include grid-push(4);
+  }
+}
 
 .ingredients {
   @include grid-container;
