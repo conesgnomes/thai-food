@@ -443,21 +443,11 @@ body {
   background-repeat: no-repeat;
   background-position: right;
 }
-.header:before {
-  display: inline-block;
-  content: '';
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(to bottom, transparent 0%, black 30%);
-  opacity: .3;
-}
 .header img {
   height: 25px;
   float: left;
   filter: brightness(0) invert(1);
   margin: 5% 0 0 5%;
-  z-index: 100;
 }
 .header ul {
   display: none;
@@ -467,12 +457,15 @@ body {
   margin: 5% 5% 0 0;
 }
 .header .hero-text {
-  border: solid red 1px;
   padding-top: 40%;
   padding-left: 5%;
 }
 .header .hero-text h1 {
   margin: 0;
+}
+.header .hero-text p {
+  padding-left: 15px;
+  margin-bottom: -8px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,21 +4,20 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
-  &:before {
-    display: inline-block;
-    content: '';
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to bottom, transparent 0%, black 30%);
-    opacity: .3;
-  }
+  // &:before {
+  //   display: inline-block;
+  //   content: '';
+  //   position: relative;
+  //   width: 100%;
+  //   height: 100%;
+  //   background-image: linear-gradient(to bottom, transparent 0%, black 30%);
+  //   opacity: .3;
+  // }
   img {
     height: 25px;
     float: left;
     filter: brightness(0) invert(1);
     margin: 5% 0 0 5%;
-    z-index: 100;
   }
   ul {
     display: none;
@@ -28,11 +27,14 @@
     margin: 5% 5% 0 0;
   }
   .hero-text {
-    border: solid red 1px;
     padding-top: 40%;
     padding-left: 5%;
     h1 {
       margin: 0;
+    }
+    p {
+      padding-left: 15px;
+      margin-bottom: -8px;
     }
   }
 }
