@@ -2,11 +2,21 @@
   @include grid-container;
   .flavor-card {
     @include grid-column(12);
+    @media #{$breakpoint-medium} {
+      @include grid-column(4);
+    }
   }
 }
   .about {
     @include grid-container;
     .about-text{
-      @include grid-column(12);      
+      @include grid-column(12);
     }
   }
+
+.ingredients {
+  @include grid-container;
+  .ingredient-group {
+    @include grid-column(12);
+  }
+}

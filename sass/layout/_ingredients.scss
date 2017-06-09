@@ -1,0 +1,21 @@
+.ingredients {
+  background-image: url("../img/zig-zag-wool.png");
+  @include section-divider($white-text);
+  .ingredient-group{
+    background-color: white;
+    margin-top: 15px;
+    &:last-of-type {
+      margin-bottom: 15px;
+    }
+    .ingredient-img {
+      height: 250px;
+      overflow: hidden;
+      img {
+        width: 100%;
+      }
+    }
+    .ingredient-text {
+      @include flavor-card(0);
+    }
+  }
+}

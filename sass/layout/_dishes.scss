@@ -1,16 +1,20 @@
 .dishes {
-  background-image: url("../img/zig-zag-wool.png");
   text-align: center;
+  background-image: url("../img/zig-zag-wool.png");
   @include section-divider($white-text);
-  p {
+  h4 {
     margin: 15px 0;
   }
   & > p {
     display: none;
   }
   .dish-card {
-    img {
-      width: 100%;
+    .dish-img {
+      height: 250px;
+      overflow: hidden;
+      img {
+        width: 100%;
+      }
     }
   }
 }

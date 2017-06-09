@@ -1,40 +1,44 @@
 .header {
+  position: relative;
   height: 240px;
-  background-image: url("../img/umbrella.jpg");
+  background-image: url("../img/hero-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
-  // &:before {
-  //   display: inline-block;
-  //   content: '';
-  //   position: relative;
-  //   width: 100%;
-  //   height: 100%;
-  //   background-image: linear-gradient(to bottom, transparent 0%, black 30%);
-  //   opacity: .3;
-  // }
-  img {
-    height: 25px;
-    float: left;
-    filter: brightness(0) invert(1);
-    margin: 5% 0 0 5%;
-  }
   ul {
     display: none;
   }
   i {
-    float: right;
-    margin: 5% 5% 0 0;
+    float: left;
+    margin: 15px 0 0 15px;
   }
   .hero-text {
-    padding-top: 40%;
-    padding-left: 5%;
+    @include position(absolute, null 0 0 null);
+    right: 0;
+    bottom: 0;
     h1 {
       margin: 0;
     }
     p {
-      padding-left: 15px;
+      padding-left: 10px;
       margin-bottom: -8px;
+    }
+  }
+  @media #{$breakpoint-medium} {
+    height: 300px;
+    .nav-bar {
+      i {
+        display: none;
+      }
+      ul {
+        display: inline;
+        float: left;
+        margin-top: 20px;
+        li {
+          display: inline;
+          margin-left: 20px;
+        }
+      }
     }
   }
 }
