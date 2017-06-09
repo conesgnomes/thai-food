@@ -1,3 +1,14 @@
-@mixin flavor-card {
-  
+@mixin flavor-card($img-height) {
+  text-align: center;
+  img {
+    height: $img-height;
+  }
+  h3 {
+    margin: 20px 0;
+    font-family: 'Trirong', serif;
+  }
+  p {
+    padding: 20px;
+    font-weight: 300;
+  }
 }
