@@ -492,11 +492,25 @@ body {
   }
 }
 
+@media only screen and (min-width: 600px) {
+  .dishes::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+  .dishes .dish-card {
+    width: calc(33.33333% - 26.66667px);
+    float: left;
+    margin-left: 20px;
+  }
+}
+.dishes
 .about::after {
   clear: both;
   content: "";
   display: block;
 }
+.dishes
 .about .about-text {
   width: calc(100% - 40px);
   float: left;
@@ -622,12 +636,28 @@ body {
 .dishes .dish-card .dish-img img {
   width: 100%;
 }
+@media only screen and (min-width: 600px) {
+  .dishes .dish-card {
+    padding-bottom: 20px;
+  }
+  .dishes .dish-card h4 {
+    display: none;
+  }
+  .dishes .dish-card img {
+    object-fit: cover;
+    height: 100%;
+  }
+  .dishes > p {
+    display: inline;
+  }
+}
 
 .about {
   background-image: url("../img/thailand.png");
   background-size: 45%;
   background-repeat: no-repeat;
   background-position: 10% -5%;
+  padding: 20px;
 }
 .about hr {
   border-top: 0.5px solid #3E3E3E;

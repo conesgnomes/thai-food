@@ -17,4 +17,19 @@
       }
     }
   }
+  @media #{$breakpoint-medium} {
+    .dish-card {
+      padding-bottom: 20px;
+      h4 {
+        display: none;
+      }
+      img {
+        object-fit: cover;
+        height: 100%;
+      }
+    }
+    & > p {
+      display: inline;
+    }
+  }
 }

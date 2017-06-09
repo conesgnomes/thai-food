@@ -7,6 +7,17 @@
     }
   }
 }
+
+@media #{$breakpoint-medium} {
+  .dishes {
+    @include grid-container;
+    .dish-card {
+      @include grid-column(4);
+    }
+  }
+}
+.dishes
+
   .about {
     @include grid-container;
     .about-text{
