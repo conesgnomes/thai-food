@@ -59,7 +59,13 @@ body {
   h3 {
     text-align: center;
   }
-  .ingredient-text {
-
+  @media #{$breakpoint-medium} {
+    .ingredient-group {
+      .ingredient-text {
+        h4, p {
+          text-align: left;
+        }
+      }
+    }
   }
 }

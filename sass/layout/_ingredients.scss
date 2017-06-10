@@ -18,4 +18,20 @@
       @include flavor-card(0);
     }
   }
+  @media #{$breakpoint-medium} {
+    @include section-divider($main-text);
+    background-image: none;
+    .ingredient-group {
+      padding-top: 40px;
+      .ingredient-img {
+        @include size(150px);
+        float: left;
+        margin-right: 20px;
+        img {
+          object-fit: contain;
+          width: 150%;
+        }
+      }
+    }
+  }
 }

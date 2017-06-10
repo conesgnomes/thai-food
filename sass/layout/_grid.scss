@@ -35,5 +35,9 @@
   @include grid-container;
   .ingredient-group {
     @include grid-column(12);
+    @media #{$breakpoint-medium} {
+      @include grid-column(10);
+      @include grid-push(1);
+    }
   }
 }
