@@ -12,27 +12,27 @@
 
 First third of mobile view
 
-(https://github.com/conesgnomes/thai-food/blob/master/img/mobile-1.png)
+![alt text](https://github.com/conesgnomes/thai-food/blob/master/img/mobile-1.png)
 
 Second third of mobile view
 
-(https://github.com/conesgnomes/thai-food/blob/master/img/mobile-2.png)
+![alt text](https://github.com/conesgnomes/thai-food/blob/master/img/mobile-2.png)
 
 Third third of mobile view
 
-(https://github.com/conesgnomes/thai-food/blob/master/img/mobile-3.png)
+![alt text](https://github.com/conesgnomes/thai-food/blob/master/img/mobile-3.png)
 
 First third of tablet view
 
-(https://github.com/conesgnomes/thai-food/blob/master/img/tablet-1.png)
+![alt text](https://github.com/conesgnomes/thai-food/blob/master/img/tablet-1.png)
 
 Second third of tablet view
 
-(https://github.com/conesgnomes/thai-food/blob/master/img/tablet-2.png)
+![alt text](https://github.com/conesgnomes/thai-food/blob/master/img/tablet-2.png)
 
 Third third of tablet view
 
-(https://github.com/conesgnomes/thai-food/blob/master/img/tablet-3.png)
+![alt text](https://github.com/conesgnomes/thai-food/blob/master/img/tablet-3.png)
 
 ## Setup/Installation Requirements
 
