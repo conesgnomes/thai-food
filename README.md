@@ -36,7 +36,7 @@ Third third of tablet view
 
 Mock up created in Sketch
 
-![alt text]()
+![alt text](https://github.com/conesgnomes/thai-food/blob/master/img/sketch-mockup.png)
 
 ## Setup/Installation Requirements
 
