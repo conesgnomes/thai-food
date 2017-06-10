@@ -34,6 +34,10 @@ Third third of tablet view
 
 ![alt text](https://github.com/conesgnomes/thai-food/blob/master/img/tablet-3.png)
 
+Mock up created in Sketch
+
+![alt text]()
+
 ## Setup/Installation Requirements
 
 * Open CMD/Terminal
